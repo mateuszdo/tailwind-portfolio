@@ -10,11 +10,11 @@ const ProjectCard = ({img, url, title, text, github}) => {
 				<p className="capitalize tracking-wide py-2 font-bold">{title}</p>
 				<p className="text-slate-600">{text}</p>
 				<div className="flex gap-3 mt-5">
-					<a href={url}>
-						<TbWorldWww className="h-6 w-6 text-slate-500 hover:text-black duration-300"/>
+					<a href={url} target="_blank">
+						<TbWorldWww className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
 					</a>
-					<a href={github}>
-						<FaGithubSquare className="h-6 w-6 text-slate-500 hover:text-black duration-300"/>
+					<a href={github} target="_blank">
+						<FaGithubSquare className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
 					</a>
 				</div>
 			</div>
