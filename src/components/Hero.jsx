@@ -1,5 +1,5 @@
 import heroImg from "../assets/hero.svg";
-import {FaGithubSquare, FaLinkedin, FaTwitterSquare} from "react-icons/fa";
+import {FaGithubSquare, FaLinkedin} from "react-icons/fa";
 const Hero = () => {
 	return (
 		<div className="bg-lime-100 py-24">
@@ -15,14 +15,11 @@ const Hero = () => {
 						turning ideas into interactive reality
 					</p>
 					<div className="flex flex-row gap-x-4 mt-4">
-						<a href="#">
+						<a href="https://github.com/mateuszdo">
 							<FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
 						</a>
-						<a href="#">
+						<a href="https://www.linkedin.com/in/mateuszdobrzynski/">
 							<FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
-						</a>
-						<a href="#">
-							<FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
 						</a>
 					</div>
 				</article>
