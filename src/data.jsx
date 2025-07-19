@@ -1,6 +1,10 @@
 import {nanoid} from "nanoid";
 import {FaHtml5, FaJs, FaReact} from "react-icons/fa";
 import { SiMysql, SiTailwindcss, SiTypescript } from "react-icons/si";
+import quizImage from '../src/assets/quiz.png';
+import menuImage from '../src/assets/menu.png';
+import colorGeneratorImage from '../src/assets/colorGenerator.png';
+import storeLightImage from '../src/assets/storeLight.png';
 
 export const links = [
 	{id: nanoid(), href: "#home", text: "home"},
@@ -51,7 +55,7 @@ export const skills = [
 export const projects = [
 	{
 		id: nanoid(),
-		img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
+		img: quizImage,
 		url: "https://react-quiz-by-mateusz.netlify.app/",
 		github: "https://github.com/mateuszdo/react-quiz",
 		title: "React Quiz",
@@ -59,18 +63,26 @@ export const projects = [
 	},
 	{
 		id: nanoid(),
-		img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+		img: menuImage,
 		url: "https://menu-by-mateusz.netlify.app/",
 		github: "https://github.com/mateuszdo/menu",
 		title: "Menu",
-		text: "Restaurant menu project showing different tabs nad meals for each part of the day. Props passing practice.",
+		text: "Restaurant menu project showing different tabs and meals for each part of the day. Props passing practice.",
 	},
 	{
 		id: nanoid(),
-		img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
+		img: colorGeneratorImage,
 		url: "https://colorgenerator-by-me.netlify.app/",
-		github: "https://github.com/john-smilga",
-		title: "third project",
+		github: "https://github.com/mateuszdo/colorGenerator",
+		title: "Color Generator",
 		text: "Practising form handling in React to showcase all shades of each color and utilizing 'save to clipboard' feature.",
+	},
+	{
+		id: nanoid(),
+		img: storeLightImage,
+		url: "https://next-storefront-git-main-mateuszs-projects-4e99508b.vercel.app/",
+		github: "https://github.com/mateuszdo/nextStorefront",
+		title: "eCommerce Store",
+		text: "Full eCommerce Store allowing user to browse the catalog, add multiple products to the cart, checkout using stripe and leave the review. Admin can also manage catalog and view order history.",
 	},
 ];
